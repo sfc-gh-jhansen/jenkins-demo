@@ -13,7 +13,7 @@ pipeline {
        SF_ROLE="${SF_ROLE}"
        SF_WAREHOUSE="${SF_WAREHOUSE}"
        SF_DATABASE="${SF_DATABASE}"
-       SNOWFLAKE_PASSWORD="${SNOWFLAKE_PASSWORD}"
+       SNOWFLAKE_PASSWORD="${SF_PASSWORD}"
    }    
     stages {
 
