@@ -8,7 +8,7 @@ pipeline {
     }
     environment {
        ROOT_FOLDER="${ROOT_FOLDER}"
-       SF_ACCOUNT="${SF_ACCOUNT}"
+//       SF_ACCOUNT="${SF_ACCOUNT}"
        SF_USERNAME="${SF_USERNAME}"
        SF_ROLE="${SF_ROLE}"
        SF_WAREHOUSE="${SF_WAREHOUSE}"
