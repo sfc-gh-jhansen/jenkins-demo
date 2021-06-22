@@ -6,15 +6,6 @@ pipeline {
         } 
         
     }
-    environment {
-       ROOT_FOLDER="${ROOT_FOLDER}"
-//       SF_ACCOUNT="${SF_ACCOUNT}"
-       SF_USERNAME="${SF_USERNAME}"
-       SF_ROLE="${SF_ROLE}"
-       SF_WAREHOUSE="${SF_WAREHOUSE}"
-       SF_DATABASE="${SF_DATABASE}"
-       SNOWFLAKE_PASSWORD="${SF_PASSWORD}"
-   }    
     stages {
 
         stage('Run schemachange') {
